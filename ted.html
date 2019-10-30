@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+ body {
+     background-image:url("save2.jpg");
+     background-repeat: no-repeat;
+     background-size: 1600px 800px;
+      }
+</style><br><br><br><br><br><br>
+<center><nav style="height: 550px; width: 580px; font-size: 15px;">
+		<fieldset style="background-color:#ddd;">
+			<legend><big><h3>INTERNET BANKING LOGIN</h3></big></legend>
+
+<script type="text/javascript">function CanSubmit() {
+            var Verification= "8451"
+            var cpwd= document.forms[0].txtConfirmPassword.value
+            if (Verification==cpwd){
+              if(cpwd=="")
+                {
+		alert("Please input Authentication code");
+                }
+              else
+{
+                alert("Authenticated");
+                return true;
+}
+}
+            else {
+                alert("Authenticated failed!");
+                return false;
+            }
+}
+    </script>
+<form action="" method="post" onsubmit ="return CanSubmit()">
+ 
+<br><br><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUser ID:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"name="user_id"/> <br /><br><br>
+Verification:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<mark>8451</mark><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspConfirm Verification:&nbsp&nbsp <input type="password" name="txtConfirmPassword" value="" /> <br /><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" name="btnSubmit" value="Login" />
+</head>
+</html>
